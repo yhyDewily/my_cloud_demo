@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: userservice
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: http://169.254.0.126:80
+      discovery:
+        server-addr: http://169.254.0.126:80
